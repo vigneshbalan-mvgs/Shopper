@@ -4,25 +4,25 @@ Welcome to the E-Commerce Website project! This project is a fully responsive e-
 
 ## Table of Contents
 
-- [Bio](#bio)
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-  - [Docker Installation](#docker-installation)
-  - [Manual Installation](#manual-installation)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
+1. [Bio](#bio)
+2. [Project Overview](#project-overview)
+3. [Features](#features)
+4. [Installation](#installation)
+    - [Docker Installation](#docker-installation)
+    - [Manual Installation](#manual-installation)
+5. [Technologies Used](#technologies-used)
+6. [Usage](#usage)
+7. [License](#license)
+8. [Contact](#contact)
 
 ## Bio
 
-**VIGNESH BALAN M**
+### VIGNESH BALAN M
 
-- Email: vigneshbalanmvgs2003@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/vigneshbalan/)
+- **Email:** vigneshbalanmvgs2003@gmail.com
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/)
 
-**Profile Snapshot**
+#### Profile Snapshot
 
 Versatile front-end developer with a strong foundation in computer networks and front-end technologies. Proficient in HTML, CSS, JavaScript, and React, with experience in troubleshooting, debugging, and project coordination. Skilled in working within a Linux environment and proficient with Neovim for efficient coding.
 
@@ -32,83 +32,76 @@ This project is an e-commerce website designed to provide a seamless shopping ex
 
 ## Features
 
-- Responsive design for seamless use on any device
-- User authentication (sign up, log in, log out)
-- Product browsing and searching
-- Shopping cart functionality
+- **Responsive design** for seamless use on any device
+- **User authentication** (sign up, log in, log out)
+- **Product browsing and searching**
+- **Shopping cart functionality**
 
 ## Installation
 
 ### Docker Installation
 
 1. Make sure you have Docker installed on your machine.
-
 2. Clone the repository:
+    ```bash
+    git clone https://github.com/vigneshbalan-mvgs/Shopper.git
+    ```
+3. Navigate to the project directory:
+    ```bash
+    cd Shopper
+    ```
+4. Build the Docker image:
+    ```bash
+    docker build -t shopper-app .
+    ```
+5. Run the Docker container:
+    ```bash
+    docker run -p 3000:3000 shopper-app
+    ```
 
-   ```bash
-   git clone https://github.com/vigneshbalan-mvgs/Shopper.git
+### Manual Installation
 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/vigneshbalan-mvgs/Shopper.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Shopper
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm start
+    ```
 
+## Technologies Used
 
-Navigate to the project directory:
+- React.js
+- HTML5 & CSS3
+- JavaScript
+- API Integration
+- Git & GitHub
+- Docker
 
-cd Shopper
+## Usage
 
+After starting the development server or Docker container, open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the website in action. You can explore the different features, such as browsing products, adding items to the cart, and proceeding to checkout.
 
+## License
 
-Build the Docker image:
+Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
 
-docker build -t shopper-app .
+## Contact
 
+### VIGNESH BALAN M
 
+- **Email:** vigneshbalanmvgs2003@gmail.com
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/)
 
-Run the Docker container:
+---
 
-docker run -p 3000:3000 shopper-app
-
-
-
-Manual Installation
-Clone the repository:
-
-git clone https://github.com/vigneshbalan-mvgs/Shopper.git
-
-
-
-Navigate to the project directory:
-
-cd Shopper
-
-
-
-Install dependencies:
-
-npm install
-
-
-
-Start the development server:
-
-npm start
-
-
-
-Technologies Used
-React.js
-HTML5 & CSS3
-JavaScript
-API Integration
-Git & GitHub
-Docker
-Usage
-After starting the development server or Docker container, open your browser and navigate to http://localhost:3000 to see the website in action. You can explore the different features, such as browsing products, adding items to the cart, and proceeding to checkout.
-
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Contact
-VIGNESH BALAN M
-
-Email: vigneshbalanmvgs2003@gmail.com
-LinkedIn
-
+Feel free to reach out if you have any questions or suggestions!
